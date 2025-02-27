@@ -1,0 +1,204 @@
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content:space-between;
+    align-items:center ;
+    padding: 20px;
+}
+
+else{
+    width: 50%;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+
+
+}
+#logo{
+    width: 97px; height: 62px;
+    margin-top: 24px;
+}
+#hamberger{
+    width: 36px; height: 27px;
+    margin-top: 60px;
+
+}
+#meno{
+    width: 660px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    margin-top: 47px;
+
+}
+#download{
+    background-color: rgba(245, 71, 72, 0);
+    color: white;
+    width: 162px;
+    height: 45px;
+    text-align: center;
+    border: rgba(245, 71, 72, 0);
+    border-radius: 100px;
+    margin-top: 47px;
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+@media (max-width: 800px) {
+    #meno{
+        display: none;
+    }
+    #download{
+        display: none;
+    }
+    .picture{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+}
+@media (min-width: 768px ){
+    #hamberger{
+        display: none;
+
+    }
+
+
+}
+.trust{
+    border: pink;
+    border-radius: 100px;
+
+    color: black;
+    width: 162px;
+    height: 45px;
+    text-align: center;
+    border: plum;
+    border-radius: 100px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.description{
+    font-size: 20px;
+    
+}
+
+
+
+.text vector{
+    width: 14px;
+    height: 20px;
+    
+}
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+.highlights-3{
+    color: rgba(253, 197, 94, 1);;
+}
+
+
+.search-bar{
+    width: 345px;
+    height: 54px;
+    border: 2px solid gray;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+
+
+    
+}
+.search-bar > input{
+    width: 100px;
+    border: none;
+    background-color: white;
+    padding: auto;
+
+}
+.search-bar > button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgba(253, 197, 94, 1);
+    border-radius: 50px;
+    
+
+}
+.buttons {
+    margin-top: 20px;
+}
+
+.download-app {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.download-app:hover{
+    background-color: darkred;
+    transition: 0.3s;
+
+}
+
+.watch-video {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.image-section {
+
+
+    position: relative;
+    width: 70%;
+}
+
+.image-section img {
+    width: 100%;
+}
+.picture{
+    width: 50%;
+}
+.center-text{
+    text-align: center;
+}
+.offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+align-items: center;
+padding: 59px;
+}
+
+
